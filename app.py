@@ -10,15 +10,15 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-Ushape=pd.read_csv("ushape.csv",header=None,names=["f1","f2","cv"])
-Concentriccir1=pd.read_csv("concerticcir1.csv",header=None,names=["f1","f2","cv"])
-Concentriccir2=pd.read_csv("concertriccir2.csv",header=None,names=["f1","f2","cv"])
-Linearsep=pd.read_csv("linearsep.csv",header=None,names=["f1","f2","cv"])
-Outlier=pd.read_csv("outlier.csv",header=None,names=["f1","f2","cv"])
-Overlap=pd.read_csv("overlap.csv",header=None,names=["f1","f2","cv"])
-Xor=pd.read_csv("xor.csv",header=None,names=["f1","f2","cv"])
-Twospirals=pd.read_csv("twospirals.csv",header=None,names=["f1","f2","cv"])
-Random=pd.read_csv("random.csv",header=None,names=["f1","f2","cv"])
+Ushape=pd.read_csv("1.ushape.csv",header=None,names=["f1","f2","cv"])
+Concentriccir1=pd.read_csv("2.concerticcir1.csv",header=None,names=["f1","f2","cv"])
+Concentriccir2=pd.read_csv("3.concertriccir2.csv",header=None,names=["f1","f2","cv"])
+Linearsep=pd.read_csv("4.linearsep.csv",header=None,names=["f1","f2","cv"])
+Outlier=pd.read_csv("5.outlier.csv",header=None,names=["f1","f2","cv"])
+Overlap=pd.read_csv("6.overlap.csv",header=None,names=["f1","f2","cv"])
+Xor=pd.read_csv("7.xor.csv",header=None,names=["f1","f2","cv"])
+Twospirals=pd.read_csv("8.twospirals.csv",header=None,names=["f1","f2","cv"])
+Random=pd.read_csv("9.random.csv",header=None,names=["f1","f2","cv"])
 
 
 
